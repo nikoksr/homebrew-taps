@@ -7,11 +7,11 @@ class Proji < Formula
 
   if OS.mac?
     url "https://github.com/nikoksr/proji/releases/download/v0.19.1/proji-macOS-64bit.tar.gz"
-    sha256 "bd4a4c013720d056084bf7b3c634160ac429bdde897bb41ee91eb3057170a2d7"
+    sha256 "e264edc0fe591d07e68c0b4bc7bba01f0b51eb35db74333c08ac43293e53a4e6"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/nikoksr/proji/releases/download/v0.19.1/proji-Linux-64bit.tar.gz"
-      sha256 "d0c4b700be01f030a5b49b3ad5099faed7fd005fbf32bf83e47c7431dcbecced"
+      sha256 "299c36ba7c33f8258b840f9420cd5a272068270bc8056ecb5f247eebcad98e39"
     end
   end
 
