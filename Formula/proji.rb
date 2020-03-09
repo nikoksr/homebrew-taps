@@ -2,16 +2,16 @@
 class Proji < Formula
   desc "A powerful cross-platform CLI project templating tool."
   homepage "https://github.com/nikoksr/proji"
-  version "0.19.1"
+  version "0.19.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/nikoksr/proji/releases/download/v0.19.1/proji-macOS-64bit.tar.gz"
-    sha256 "e264edc0fe591d07e68c0b4bc7bba01f0b51eb35db74333c08ac43293e53a4e6"
+    url "https://github.com/nikoksr/proji/releases/download/v0.19.2/proji-macOS-64bit.tar.gz"
+    sha256 "225d19b8e38d3ed6104e1b0bef006eb73bde07a057a18d0bce5a18289f9a9d63"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/nikoksr/proji/releases/download/v0.19.1/proji-Linux-64bit.tar.gz"
-      sha256 "299c36ba7c33f8258b840f9420cd5a272068270bc8056ecb5f247eebcad98e39"
+      url "https://github.com/nikoksr/proji/releases/download/v0.19.2/proji-Linux-64bit.tar.gz"
+      sha256 "72ba3b43ee9f212f58017fe7d2b70652165d499189700f92cdbe1c108b086f2e"
     end
   end
 
